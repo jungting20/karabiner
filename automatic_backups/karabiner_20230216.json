@@ -96,31 +96,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "ctrl + d to backSpace",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ],
-                                        "optional": [
-                                            "caps_lock",
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "delete_or_backspace"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -355,6 +330,16 @@
                     "to": [
                         {
                             "key_code": "f13"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_option"
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_or_backspace"
                         }
                     ]
                 }
